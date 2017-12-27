@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Exercise</title>
+  </head>
+  <body>
+    <form>
+      <div>
+      <label for="first_name">First Name: </label>
+      <input id="first_name" name="first_name" type="text" required placeholder="John">
+      <label id="last_name">Last Name: </label>
+      <input name="last_name" name="last_name" type="text" required placeholder="Smith">
+    </div>
+      <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="MALE">
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="FEMALE">
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="OTHER">
+
+      </div>
+      <div>
+        <label for="birthday">Birthday</label>
+        <select id="birthday" name="month">
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+        </select>
+        <select name="day">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <select name = "year">
+          <option>1980</option>
+          <option>1981</option>
+          <option>1982</option>
+        </select>
+      </div>
+      <div>
+          <label for="tos">I agree to the terms of service.</label>
+          <input id="tos" type="checkbox" required name="agree">
+      </div>
+
+
+      <div>
+      <label for="email">Email: </label>
+      <input id= "email" type="email" name="email" required>
+      <label for="password">Password: </label>
+      <input id="password" type="password" name="password" minlength=5 required>
+
+      </div>
+     <div>
+       <button>Go!</button>
+     </div>
+    </form>
+
+  </body>
+</html>

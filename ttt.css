@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+}
+
+table {
+margin: auto;
+width: 300px;
+height: 300px;
+}
+
+tr{
+  height: 100px;
+}
+
+td{
+  width:100px;
+}
+
+.vertical {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.horizontal {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
